@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EscucharFragment"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:id="@+id/ANIMEFLV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/animeflv"/>
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="ANIME FLV"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp"
+                />
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/CRUNCHYROLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/crunchyroll"/>
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="CRUNCHYROLL"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/KANIME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/kanime"/>
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="K ANIME"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ANIMEFENIX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/fenix"/>
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="ANIME FENIX"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Informacion"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <LinearLayout
+            android:id="@+id/PANDRAMA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+
+                android:src="@drawable/pandrama"/>
+
+            <TextView
+
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="PANDRAMA"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ESTRENOSDORAMAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/estrenos"/>
+
+            <TextView
+
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:text="ESTRENOS DORAMAS"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ASIACULTURE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/asiaculture"/>
+
+            <TextView
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+
+                android:text="ASIA CULTURE"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/DORAMASMP4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/doramamp4"/>
+
+            <TextView
+
+                android:layout_width="213dp"
+                android:layout_height="54dp"
+                android:layout_marginTop="-15dp"
+                android:textStyle="bold"
+                android:text="DORAMAS MP4"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:layout_gravity="center"
+
+                tools:layout_editor_absoluteX="108dp"
+                tools:layout_editor_absoluteY="178dp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>
